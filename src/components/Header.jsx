@@ -3,7 +3,6 @@
 import Navbar from "./Navbar";
 import Link from "next/link";
 import React, { forwardRef } from "react";
-import { components } from "@/app/utils/data";
 import { cn } from "@/lib/utils";
 import {
   NavigationMenu,
@@ -15,6 +14,7 @@ import {
 } from "@/components/ui/navigation-menu";
 import { Input } from "./ui/input";
 import { Heart, Menu, ShoppingCart } from "lucide-react";
+import { components } from "@/utils/data";
 
 const Header = () => {
   return (
